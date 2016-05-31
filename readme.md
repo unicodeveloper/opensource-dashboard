@@ -1,7 +1,7 @@
-# dashboard.spatie.be
+# Open Source Dashboard
 
-This repo contains the sourcecode of dashboard.spatie.be
+This repo contains the source code of opensource-dashboard.herokuapp.com
 
 ## License
 
-This project and the Laravel framework are open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+This project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
