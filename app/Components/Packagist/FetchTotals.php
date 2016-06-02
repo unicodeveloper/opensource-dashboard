@@ -34,7 +34,7 @@ class FetchTotals extends Command
 
         $packagist = new Packagist($client);
 
-        $totals = collect($packagist->getPackagesByVendor('spatie')['packageNames'])
+        $totals = collect($packagist->getPackagesByVendor('unicodeveloper')['packageNames'])
                 ->map(function ($packageName) use ($packagist) {
                     return $packagist->findPackageByName($packageName)['package'];
                 })
